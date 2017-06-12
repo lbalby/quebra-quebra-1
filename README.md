@@ -25,21 +25,21 @@ git clone https://github.com/tatianass/quebra-quebra.git
 ```
 2. Abra o arquivo index.html em seu navegador.
 
-## Crawler e scrapping dos dados da camara de deputados
+## Crawler e scrapping dos dados da Câmara de Deputados
 
-Accedendo a pasta `camara_deputados` voce cai encontrar diferentes programas para accesar os dados da camara de deputados
+Entrando na pasta `camara_deputados` você vai encontrar diferentes programas para acesar os dados da Câmara de Deputados
 
 ### lotacoes.sh
 
-Gera um arquivo data/lotacoes.txt que tem todas as locatacoes (departamentos) da camera.
+Gera um arquivo data/lotacoes.txt que tem todas as lotações (departamentos) da Câmara.
 
 ### outro_servidores.sh
 
-Gera um arquivo data/outros_servidores.txt com a lista de nomes de todos os servidores (não deputados) que trabalham na camera de deputados.
+Gera um arquivo data/outros_servidores.txt com a lista de nomes de todos os outros servidores (não deputados) que trabalham na Câmara de Deputados.
 
 ### remuneracao_deputados_ano.sh
 
-Gera arquivos SQL com comandos INSERT INTO data/deputados_inserts_${ANO}${MES}.sql que contem todas as remunerações de todos os deputados duramte um ano.
+Gera arquivos SQL com comandos INSERT INTO data/deputados_inserts_${ANO}${MES}.sql que contem todas as remunerações de todos os deputados durante um ano.
 
 ### remuneracao_funcionario.sh
 
@@ -47,11 +47,11 @@ Gera comandos SQL INSERT INTO das remunerações para um deputado num periodo es
 
 ### remuneracao_outros_servidores_ano.sh
 
-Gera arquivos SQL com comandos INSERT INTO data/outros_inserts_${ANO}${MES} que contem todas as remunerações de todos os servidores (não deputados) duramte um ano.
+Gera arquivos SQL com comandos INSERT INTO data/outros_inserts_${ANO}${MES} que contem todas as remunerações de todos os servidores (não deputados) durante um ano.
 
 ### servidores_lotacao.sh
 
-Gera uma lista de nomes de servidores que trabalham numa especifica lotação da camera.
+Gera uma lista de nomes de servidores que trabalham numa lotação especfica da Câmara.
 
 ## Tutorial para dados do Senado
 
@@ -63,7 +63,7 @@ Segue os passos utilizados para o download dos dados do site do senado.leg.gov:
 
 3. Selecionar um servidor qualquer
 
-4. Escolher a data para a qual quer obter os dados
+4. Escolher a data obter os dados
 
 5. Colocar o captcha e clicar em mais informações
 
